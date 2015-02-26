@@ -1,0 +1,4 @@
+title_tag_text: Pathum Egodawatta
+h1_tag_text: Pathum Egodawatta
+
+exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
