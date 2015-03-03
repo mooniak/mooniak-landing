@@ -9,8 +9,9 @@ A multidisciplinary collaborative design practice from Colombo. We believe in cr
  
 - [Other-Letter](https://github.com/pathumego/other-letter): A Hybrid Sinhala and Tamily alphabet
 
-- [Ceylon Display](http://ceylondisplay.com/)
-- [Found Type Lanka](http://foundtypelanka.tumblr.com/)
+- [Ceylon Display](http://ceylondisplay.com/): A curated collection of Sri Lankan graphic design.
+
+- [Found Type Lanka](http://foundtypelanka.tumblr.com/) 
 
 ##Connect
 
