@@ -4,7 +4,7 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 ##Connect
 
-[blog](a href="http://blog.mooniak.com/") // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
+[blog](a href="http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
 
 
 ##Big Projects
