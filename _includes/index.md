@@ -1,10 +1,9 @@
-
 A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 සමාජ කේන්ද්‍රීය නිර්මාණකරුවන් පිරිසකගේ ගේ එකතුවක්...
 
 ##Connect
 
-[blog](a href="http://blog.mooniak.com/") // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
+[blog](http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
 
 
 ##Big Projects
@@ -26,6 +25,7 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 ##We Share our Work
 
 We believe in creating and sharing.. We share most of our work under open licenses, even client projects with their approval.
+
 
 
 
