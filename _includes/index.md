@@ -5,8 +5,11 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 [blog](http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
 
+##Projects happening now
 
-##Ongoing
+- [STICK NO BILLS Font](https://github.com/mooniak/stick-no-bills-font): A custom font for STICKNO BILLS Poster Gallry in Galle, Sri Lanka // [UPDATES](http://blog.mooniak.com/tagged/sticknobillsfont)
+
+##Ongoing Projects
 
 - [Scribble!](https://www.facebook.com/doscribble): A brand of curated limited editions staitionary
  
