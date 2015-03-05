@@ -6,7 +6,7 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 [blog](http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
 
 
-##Big Projects
+##Ongoing
 
 - [Scribble!](https://www.facebook.com/doscribble): A brand of curated limited editions staitionary
  
