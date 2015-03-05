@@ -18,7 +18,7 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 - [colombore](http://colombore.org/):a design text - from and beyond Colombo. - Online Magazine 
 
-- [Lanka Type Project](http://lankatype.mooniak.com/) 
+- [Lanka Type Project](http://lankatype.mooniak.com/) : Sri Lanka Typography Education Project
 
 
 
