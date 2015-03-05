@@ -26,6 +26,8 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 We believe in creating and sharing.. We share most of our work under open licenses, even client projects with their approval.
 
+- [On GitHub](http://github.com/mooniak)
+- [On OpenClipart](https://openclipart.org/mooniak)
 
 
 
