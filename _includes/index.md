@@ -3,9 +3,9 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 [blog](http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
 
-##Projects happening now
+##Font Projects happening now
 
-- [STICK NO BILLS Font](https://github.com/mooniak/stick-no-bills-font): A custom font for STICKNO BILLS Poster Gallry in Galle, Sri Lanka // [UPDATES](http://blog.mooniak.com/tagged/sticknobillsfont)
+- [STICK NO BILLS Font](http://mooniak.com/stick-no-bills/): A custom font for STICKNO BILLS Poster Gallry in Galle, Sri Lanka // [UPDATES](http://blog.mooniak.com/tagged/sticknobillsfont)
 
 ##Ongoing Projects
 
