@@ -1,0 +1,355 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/earlyaccess/droidsanstamil.css);
+
+/* Reset CSS
+ * --------------------------------------- */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,
+img {
+    border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong {
+    font-weight: bold;
+}
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+caption,
+th {
+    text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+q:before,
+q:after {
+    content: '';
+}
+abbr,
+acronym {
+    border: 0;
+}
+/* Fonts
+ * --------------------------------------- */
+
+/* Webfont: NidahasFMAbhaya-Bold */
+
+@font-face {
+    font-family: 'NidahasFMAbhaya';
+    src: url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Bold.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Bold.svg#NidahasFMAbhaya-Bold') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: NidahasFMAbhaya-Regular */
+
+@font-face {
+    font-family: 'NidahasFMAbhaya';
+    src: url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/NidahasFMAbhaya/NidahasFMAbhaya-Regular.svg#NidahasFMAbhaya-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: OtherLetter-Regular */
+
+@font-face {
+    font-family: 'Other-Letter';
+    src: url('/fonts/OtherLetter/OtherLetter-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('/fonts/OtherLetter/OtherLetter-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/OtherLetter/OtherLetter-Regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/OtherLetter/OtherLetter-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('/fonts/OtherLetter/OtherLetter-Regular.svg#OtherLetter-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Custom CSS
+ * --------------------------------------- */
+
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #333;
+    
+}
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
+}
+h1.en {
+
+font-family: 'Crimson Text', serif;
+font-weight: 600;
+font-size: 2.01em;
+margin-top: 2px;
+line-height: 1.2;
+}
+h1.si {
+    font-size: 2.2em;
+    font-family: 'NidahasFMAbhaya', serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 2em;
+}
+.intro p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+.section {
+    text-align: center;
+}
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu li.active {
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+#menu li.active a:hover {
+    color: #000;
+}
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+#menu li.active a {
+    color: #fff;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: square;
+    text-align: left;
+}
+/* Unicode Table
+-----------------------------------------*/
+
+div.row {
+    clear: both;
+    float: none;
+    width: 960px;
+    overflow: hidden;
+    border-top: 1px solid #e0e0e0;
+    padding: 0;
+    white-space: nowrap;
+    margin: auto;
+}
+div.u {
+    float: left;
+    text-align: center;
+    width: 60px;
+    padding: 16px 0px 4px 0px;
+}
+div.u tt {
+    display: block;
+    text-transform: uppercase;
+    color: #666;
+    font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important;
+    font-size: 11px;
+    line-height: 10px;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+div.u span {
+    font-size: 25pt;
+    height: 44px;
+    display: block;
+}
+table.unicode {
+    font-size: 9pt;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table.unicode td {
+    vertical-align: middle;
+    padding: 1px 0px 1px 0px;
+}
+table.unicode td.space {
+    padding: 1px 60px 1px 60px;
+}
+div.utop form {
+    padding-top: 12px;
+    float: right;
+}
+div.utop h1 {
+    padding: 6px 0px 6px 0px;
+}
+div.ubottom {
+    border-top: 1px solid #e0e0e0;
+}
+div.ubottom form {
+    padding-top: 7px;
+    float: right;
+}
+#stephe {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+#stephe p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+#stephe ul {
+    list-style: circle;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* train page
+-----------------------------------------*/
+#train_tri {
+    width: 100%;
+padding: 50px 0px;
+ background: #f7f7f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7f7f7 0%, #f7f7f7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f7f7f7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f7f7f7 0%,#f7f7f7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+-webkit-box-shadow: 4px 1px 45px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 1px 45px 10px rgba(0,0,0,0.75);
+box-shadow: 4px 1px 45px 10px rgba(0,0,0,0.75);
+color:000;
+    float: left;
+   
+}
+#train_bil {
+     width: 100%;
+padding: 50px 0px;
+    background: #fff;
+    float: left;
+    border:
+}
+
+/* train page
+-----------------------------------------*/
+
+.circle{
+    font-family: 'Other-Letter';
+font-size: 72px;
+color: #FFF;
+border-radius: 50%;
+width: 300px;
+background: #F00;
+padding-top: 99px;
+height: 300px;
+    margin: 0 auto;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.descriptor_en{font-family: 'Crimson Text', serif; font-weight: 600; font-size:18px;}
+.descriptor_si{font-family: 'NidahasFMAbhaya', serif; font-weight: bold; font-size:18px;line-height: 1.5;}
