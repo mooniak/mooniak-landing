@@ -5,7 +5,9 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 ##Font Projects happening now
 
-- [STICK NO BILLS Font](http://mooniak.com/stick-no-bills/): A custom font for STICKNO BILLS Poster Gallry in Galle, Sri Lanka // [UPDATES](http://blog.mooniak.com/tagged/sticknobillsfont)
+- [STICK NO BILLS Font](http://mooniak.com/stick-no-bills/): A custom font for STICK NO BILLS Poster Gallry in Galle, Sri Lanka // 
+
+- [Ayanna Narrow](http://blog.mooniak.com/tagged/AyannaNarrow): A custom font for STICK NO BILLS Poster Gallry in Galle, Sri Lanka // 
 
 ##Ongoing Projects
 
