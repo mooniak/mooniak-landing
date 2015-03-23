@@ -83,7 +83,7 @@ margin-top: 20px;
 
 li a{
     color: #fff;
-         width: 100px;
+    width: 100px;
     padding: 10px;
     margin: 10px;
 }
@@ -91,4 +91,8 @@ li a{
 li a:hover{
   text-decoration: line-through;
 }
-   
+#faces{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
