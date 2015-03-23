@@ -1,4 +1,4 @@
- [![](https://raw.githubusercontent.com/mooniak/mooniak-web/gh-pages/images/home.png) ]
+
 A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 සමාජ කේන්ද්‍රීය නිර්මාණකරුවන් පිරිසකගේ ගේ එකතුවක්...
 
