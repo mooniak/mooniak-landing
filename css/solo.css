@@ -151,3 +151,9 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+#faces{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
