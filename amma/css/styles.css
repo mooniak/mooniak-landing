@@ -129,15 +129,15 @@ acronym {
 
 @font-face {
     font-family: 'Other-Letter';
-    src: url('/fonts/OtherLetter/OtherLetter-Regular.eot');
+    src: url('../fonts/OtherLetter/OtherLetter-Regular.eot');
     /* IE9 Compat Modes */
-    src: url('/fonts/OtherLetter/OtherLetter-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/OtherLetter/OtherLetter-Regular.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/OtherLetter/OtherLetter-Regular.woff') format('woff'),
+    url('../fonts/OtherLetter/OtherLetter-Regular.woff') format('woff'),
     /* Modern Browsers */
     url('/fonts/OtherLetter/OtherLetter-Regular.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('/fonts/OtherLetter/OtherLetter-Regular.svg#OtherLetter-Regular') format('svg');
+    url('../fonts/OtherLetter/OtherLetter-Regular.svg#OtherLetter-Regular') format('svg');
     /* Legacy iOS */
     font-style: normal;
     font-weight: normal;
