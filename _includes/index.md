@@ -33,5 +33,34 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 We believe in creating and sharing.. We share most of our work under open licenses, even client projects with their approval.Visit our [GitHub](http://github.com/mooniak) for all the projects we have shared. See shared client projects [here](http://github.com/mooniak). Or see cliparts and icons we have relaesed under public domain [On OpenClipart](https://openclipart.org/user-detail/mooniak)
 
 
+##Keep in touch
 
 
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//mooniak.us9.list-manage.com/subscribe/post?u=5ebf858ebe5c6b1b0f5f64ff2&amp;id=6deb2bc6ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group input-group">
+    <strong>Email Format </strong>
+    <ul><li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
+<li><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
+</ul>
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_5ebf858ebe5c6b1b0f5f64ff2_6deb2bc6ca" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
