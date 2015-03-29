@@ -2,7 +2,7 @@
 A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 සමාජ කේන්ද්‍රීය නිර්මාණකරුවන් පිරිසකගේ ගේ එකතුවක්...
 
-[blog](http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak)
+[blog](http://blog.mooniak.com/) // [facebook](https://www.facebook.com/mooniak) // [twitter](https://twitter.com/_mooniak) // [twitter](<a href="mailto:hello@mooniak.com?subject=Hi%20mooniak">email</a>)
 
 ##Font Projects happening now
 
