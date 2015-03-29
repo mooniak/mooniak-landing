@@ -40,18 +40,10 @@ We believe in creating and sharing.. We share most of our work under open licens
 <div id="mc_embed_signup">
 <form action="//mooniak.us9.list-manage.com/subscribe/post?u=5ebf858ebe5c6b1b0f5f64ff2&amp;id=6deb2bc6ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+	<h3>Subscribe to our mailing list</h3>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
+	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group input-group">
-    <strong>Email Format </strong>
-    <ul><li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
-<li><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
-</ul>
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
@@ -62,5 +54,7 @@ We believe in creating and sharing.. We share most of our work under open licens
     </div>
 </form>
 </div>
+
+<!--End mc_embed_signup-->
 
 <!--End mc_embed_signup-->
