@@ -1,5 +1,11 @@
 # mooniak website
 
+```
+git submodule foreach git pull
+git add .
+git coomit -m'Updates'
+```
+
 ## Based on
 ([Twitter](http://twitter.com/chibicode)/[GitHub](http://github.com/chibicode)/[G+](https://plus.google.com/110325199858284431541?rel=author)).
 
