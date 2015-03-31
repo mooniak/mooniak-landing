@@ -4,3 +4,6 @@
 [submodule "stick-no-bills"]
 	path = stick-no-bills
 	url = https://github.com/mooniak/stick-no-bills
+[submodule "amma"]
+	path = amma
+	url = https://github.com/mooniak/amma
