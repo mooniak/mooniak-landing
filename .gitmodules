@@ -3,4 +3,4 @@
 	url = https://github.com/mooniak/stick-no-bills-microsite
 [submodule "amma"]
 	path = amma
-	url = https://github.com/mooniak/amma
+	url = https://github.com/mooniak/amma-website
