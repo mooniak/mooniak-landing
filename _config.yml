@@ -1,4 +1,4 @@
 title_tag_text: mooniak
 h1_tag_text: mooniak
 
-exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
+exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules", "vendor"]
