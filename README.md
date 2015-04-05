@@ -1,9 +1,7 @@
 # mooniak website
 
 ```
-git submodule foreach git pull
-git add .
-git coomit -m'Updates'
+git submodule foreach git pull && git add . && git coomit -m'Updates'
 ```
 
 ## Based on
