@@ -187,6 +187,15 @@ pre > code {
     padding: 10px;
     text-decoration: none;
     color: #000000;
+    border: 1px dotted #000;
+}
+.tile:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px dotted #000;
+       background: #eee;
+
 }
 a.tile_link {
     
@@ -194,7 +203,9 @@ a.tile_link {
 }
 
 a.tile_link:hover {
-   
+    text-decoration: none;
+}
+a.tile_link:focus {
     text-decoration: none;
 }
 
@@ -211,18 +222,13 @@ a.tile_link:hover {
 }
 
 .red {
-    background: #FA002F;
 }
 
 .blue, blue h2 {
-    background: #0011D5;
-    color: azure;
 }
 
 .yellow {
-    background: #ffda68;
 }
 
 .green {
-    background:  #4BFF0B;
 }
