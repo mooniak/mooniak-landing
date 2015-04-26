@@ -186,6 +186,7 @@ pre > code {
 .tile {
     padding: 10px;
     text-decoration: none;
+    color: #000000;
 }
 a.tile_link {
     
@@ -210,21 +211,18 @@ a.tile_link:hover {
 }
 
 .red {
-    background: red;
-    color: aliceblue;
+    background: #FA002F;
 }
 
-.blue {
-    background: blue;
-    color: #ffa700;
+.blue, blue h2 {
+    background: #0011D5;
+    color: azure;
 }
 
 .yellow {
-    background: yellow;
-    color: #ff2054;
+    background: #ffda68;
 }
 
 .green {
-    background: green;
-    color: #ffffff;
+    background:  #4BFF0B;
 }

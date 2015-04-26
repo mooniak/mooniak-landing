@@ -2,11 +2,14 @@
 layout: post
 title: Amma Project
 tags:
-    - software
+    - design
 catagory: design
 background: red
+link : http://mooniak.com/amma/
 ---
 
 
 
 A Sinhala and Tamil hybrid typeface. 
+
+![amma project](http://mooniak.com/amma/images/avatar.png)

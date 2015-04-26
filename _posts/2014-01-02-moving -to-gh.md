@@ -2,7 +2,7 @@
 layout: post
 title: animager
 tags:
-    - software
+    - design
 catagory: software
 background: green
 ---
