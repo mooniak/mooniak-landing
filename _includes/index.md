@@ -32,6 +32,8 @@ A multidisciplinary collaborative design practice from Colombo.<br/><br/>
 
 We believe in creating and sharing.. We share most of our work under open licenses, even client projects with their approval.Visit our [GitHub](http://github.com/mooniak) for all the projects we have shared. See shared client projects [here](http://github.com/mooniak). Or see cliparts and icons we have relaesed under public domain [On OpenClipart](https://openclipart.org/user-detail/mooniak)
 
+{% include gh_cv.html %}
+<br/>
 
 ##Keep in touch
 
@@ -58,3 +60,4 @@ We believe in creating and sharing.. We share most of our work under open licens
 <!--End mc_embed_signup-->
 
 <!--End mc_embed_signup-->
+
