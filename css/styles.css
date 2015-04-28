@@ -1,0 +1,234 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+body {
+    font: 16px/1.5 'Karla', sans-serif;
+    margin: 2rem 0 5rem;
+    color: #333;
+}
+
+@media (min-width: 30rem) {
+    body {
+        margin-top: 5rem;
+    }
+}
+
+.sinhala {
+    font-family: 'Noto Sans Sinhala', serif;
+}
+
+.white_text_back {
+background: #fff;
+    z-index: 1000;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+     z-index: 1;
+}
+
+a {
+    color: red;
+    /* From http://clrs.cc */
+    
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 0 0.5rem -0.1rem
+    /* align left edge */
+    
+    ;
+    line-height: 1;
+    color: #111;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 30rem) {
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+h1 a {
+    color: inherit;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+@media (min-width: 30rem) {
+    h2 {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+pre,
+blockquote {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul,
+ol {
+    padding-left: 1.5rem;
+}
+
+dd {
+    margin-left: 1.5rem;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: .5rem 1rem;
+    border-left: .25rem solid #ccc;
+    color: #666;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+hr {
+    border: none;
+    margin: 1.5rem 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    top: -1px;
+}
+
+.container img,
+.container iframe {
+    max-width: 100%;
+}
+
+.container img {
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .25rem .5rem;
+    border: 1px solid #ccc;
+}
+
+pre,
+code {
+    font-family: inherit;
+    background-color: #eee;
+}
+
+pre {
+    padding: .5rem 1rem;
+    font-size: 0.8rem;
+}
+
+code {
+    padding: .1rem .25rem;
+}
+
+pre > code {
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+}
+/*tiles*/
+
+.tile {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px dotted #000;
+}
+.tile:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px dotted #000;
+       background: #eee;
+
+}
+a.tile_link {
+    
+    text-decoration: none;
+}
+
+a.tile_link:hover {
+    text-decoration: none;
+}
+a.tile_link:focus {
+    text-decoration: none;
+}
+
+
+.tile img {
+    width: 100%;
+    margin:
+}
+
+.category {
+    color: #000;
+    padding: 0px;
+    text-decoration: line-through;
+}
+
+.red {
+}
+
+.blue, blue h2 {
+}
+
+.yellow {
+}
+
+.green {
+}
