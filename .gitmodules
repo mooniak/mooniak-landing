@@ -7,3 +7,6 @@
 [submodule "animager"]
 	path = animager
 	url = https://github.com/mooniak/animager-microsite
+[submodule "ubuntu-graphics"]
+	path = ubuntu-graphics
+	url = https://github.com/mooniak/ubuntu-graphics-suit
