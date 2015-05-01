@@ -6,4 +6,4 @@
 	url = https://github.com/mooniak/amma-website
 [submodule "animager"]
 	path = animager
-	url = https://github.com/mooniak/animager
+	url = git://github.com/mooniak/animager.git
