@@ -4,3 +4,6 @@
 [submodule "amma"]
 	path = amma
 	url = https://github.com/mooniak/amma-website
+[submodule "animager"]
+	path = animager
+	url = git://github.com/mooniak/animager.git
