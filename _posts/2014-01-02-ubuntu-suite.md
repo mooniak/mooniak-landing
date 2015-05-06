@@ -1,12 +1,11 @@
 ---
 layout: post
-title: animager
-tags:
-    - design
+title: Libre Graphics Tools
+tags: 
+  - design
 catagory: software
 background: green
+published: true
 ---
 
-
-
-A tool to animate your design process with git :)
+A place to easily find and install Libre tools for design.
