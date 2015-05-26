@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mulakuru Font
+title: Abhaya Libre Font
 tags:
     - font
 catagory: font
