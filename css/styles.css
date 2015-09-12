@@ -221,14 +221,5 @@ a.tile_link:focus {
     text-decoration: line-through;
 }
 
-.red {
-}
-
-.blue, blue h2 {
-}
-
-.yellow {
-}
-
-.green {
-}
+    .images { position:absolute;}
+        .images-small { position:absolute;}
