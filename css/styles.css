@@ -38,7 +38,6 @@ nav {
 a {
     color: red;
     /* From http://clrs.cc */
-    
     text-decoration: none;
 }
 
@@ -54,11 +53,9 @@ h4,
 h5,
 h6 {
     font-family: 'Karla', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     margin: 0 0 0.5rem -0.1rem
-    /* align left edge */
-    
-    ;
+    /* align left edge */;
     line-height: 1;
     color: #111;
     text-rendering: optimizeLegibility;
@@ -66,31 +63,23 @@ h6 {
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-@media (min-width: 30rem) {
-    h1 {
-        font-size: 3rem;
-        margin-bottom: .5rem;
-    }
-}
-
-h1 a {
-    color: inherit;
 }
 
 h2 {
-    margin-top: 2rem;
+    font-weight: 400;
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
 }
 
 @media (min-width: 30rem) {
     h2 {
-        margin-top: 0.5rem;
+        font-weight: 400;
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+     h1 {
+        font-size: 3rem;
     }
 }
 
@@ -98,7 +87,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     font-size: 1rem;
     text-transform: uppercase;
 }
@@ -189,45 +178,7 @@ pre > code {
     left: 0;
     padding: 0 1rem;
 }
-/*tiles*/
 
-.tile {
-    padding: 10px;
-    text-decoration: none;
-    color: #000000;
-    border: 1px dotted #000;
-}
-
-.tile:hover {
-    padding: 10px;
-    text-decoration: none;
-    color: #000000;
-    border: 1px dotted #000;
-    background: #eee;
-}
-
-a.tile_link {
-    text-decoration: none;
-}
-
-a.tile_link:hover {
-    text-decoration: none;
-}
-
-a.tile_link:focus {
-    text-decoration: none;
-}
-
-.tile img {
-    width: 100%;
-    margin:
-}
-
-.category {
-    color: #000;
-    padding: 0px;
-    text-decoration: line-through;
-}
 
 .mooniak-logo-big {
     position: absolute;
@@ -237,10 +188,63 @@ a.tile_link:focus {
     position: absolute;
 }
 
+
+.btn{
+border: 1px solid #555;
+    padding: 2px 4px;
+    text-transform: lowercase;
+    color: #555;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+}
+
+.btn-big{
+border: 1px solid #555;
+    padding: 2px 4px;
+    text-transform: lowercase;
+    color: #555;   
+}
+
+.btn:hover{
+text-decoration: none;
+    background: #fff;
+}
+input{
+margin-bottom: 10px;
+}
+
+#projects{
+    padding-left: 0rem;
+    list-style: none;
+}
+
+#projects ul li{
+    list-style: none;
+}
+
+.project-thumb{
+width: 100%;
+    float: left;
+    border-top: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.project-thumb img{
+width: 50%;
+    float: left;
+    border: none;
+    padding: 5px;
+    margin-right:20px; 
+
+}
+
+
 #cssSlider {
     width: 800px;
     height: 500px;
     overflow: hidden;
+    float: right;
 }
 
 #sliderImages {
@@ -393,4 +397,9 @@ a.tile_link:focus {
     100% {
         margin-left: -3200px;
     }
+}
+
+#footer{
+border-top: 1px solid #000;
+    margin-top: 50px;
 }
