@@ -1,13 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
 /* Webfont: Moonface-Regular */
-@font-face {
-    font-family: 'Moonface';
-    src:  url('https://cdn.rawgit.com/mooniak/moonface-font/f07994f4/fonts/ttf/Moonface-Regular.ttf') format('truetype'),
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
 
+
+@import url(https://cdn.rawgit.com/mooniak/moonface-font/master/fonts/webfonts/fonts.css);
 
  
 body {
