@@ -1,10 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
-/* Webfont: Moonface-Regular */
-
 
 @import url(https://cdn.rawgit.com/mooniak/moonface-font/master/fonts/webfonts/fonts.css);
 
- 
 body {
     font: 16px/1.5 'Karla', sans-serif;
     margin: 2rem 0 5rem;
@@ -275,6 +272,7 @@ input {
     float: left;
     border-top: 1px solid #000;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .service-thumb img {
