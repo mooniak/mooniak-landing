@@ -3,6 +3,7 @@ body {
     font: 16px/1.5 'Karla', sans-serif;
     margin: 2rem 0 5rem;
     color: #333;
+    background: rgb(246, 241, 231);
 }
 
 @media (min-width: 30rem) {
@@ -11,12 +12,19 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #mooniak-logo {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 .sinhala {
     font-family: 'Noto Sans Sinhala', serif;
 }
 
 .white_text_back {
-background: #fff;
+    background: #fff;
     z-index: 1000;
 }
 
@@ -24,7 +32,7 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-     z-index: 1;
+    z-index: 1;
 }
 
 a {
@@ -45,8 +53,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
     margin: 0 0 0.5rem -0.1rem
     /* align left edge */
     
@@ -64,7 +72,7 @@ h1 {
 @media (min-width: 30rem) {
     h1 {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: .5rem;
     }
 }
 
@@ -75,7 +83,7 @@ h1 a {
 h2 {
     margin-top: 2rem;
     font-size: 1.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 @media (min-width: 30rem) {
@@ -189,26 +197,26 @@ pre > code {
     color: #000000;
     border: 1px dotted #000;
 }
+
 .tile:hover {
     padding: 10px;
     text-decoration: none;
     color: #000000;
     border: 1px dotted #000;
-       background: #eee;
-
+    background: #eee;
 }
+
 a.tile_link {
-    
     text-decoration: none;
 }
 
 a.tile_link:hover {
     text-decoration: none;
 }
+
 a.tile_link:focus {
     text-decoration: none;
 }
-
 
 .tile img {
     width: 100%;
@@ -221,5 +229,168 @@ a.tile_link:focus {
     text-decoration: line-through;
 }
 
-    .images { position:absolute;}
-        .images-small { position:absolute;}
+.mooniak-logo-big {
+    position: absolute;
+}
+
+.mooniak-logo-small {
+    position: absolute;
+}
+
+#cssSlider {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#sliderImages {
+    width: 4000px;
+    height: 500px;
+    overflow: hidden;
+    /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+    
+    animation: slide 10s infinite;
+    -moz-animation: slide 10s infinite;
+    -webkit-animation: slide 10s infinite;
+    -o-animation: slide 10s infinite;
+}
+
+#sliderImages img {
+    float: left;
+    width: 800px;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    97% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@-moz-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: -3200px;
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: -3200px;
+    }
+}
+
+@-o-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: -3200px;
+    }
+}
