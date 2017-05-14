@@ -1,4 +1,15 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+/* Webfont: Moonface-Regular */
+@font-face {
+    font-family: 'Moonface';
+    src:  url('https://cdn.rawgit.com/mooniak/moonface-font/f07994f4/fonts/ttf/Moonface-Regular.ttf') format('truetype'),
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+ 
 body {
     font: 16px/1.5 'Karla', sans-serif;
     margin: 2rem 0 5rem;
@@ -38,6 +49,7 @@ nav {
 a {
     color: red;
     /* From http://clrs.cc */
+    
     text-decoration: none;
 }
 
@@ -55,7 +67,9 @@ h6 {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     margin: 0 0 0.5rem -0.1rem
-    /* align left edge */;
+    /* align left edge */
+    
+    ;
     line-height: 1;
     color: #111;
     text-rendering: optimizeLegibility;
@@ -78,7 +92,7 @@ h2 {
         margin-bottom: 1rem;
         line-height: 1.2;
     }
-     h1 {
+    h1 {
         font-size: 3rem;
     }
 }
@@ -179,7 +193,6 @@ pre > code {
     padding: 0 1rem;
 }
 
-
 .mooniak-logo-big {
     position: absolute;
 }
@@ -188,57 +201,104 @@ pre > code {
     position: absolute;
 }
 
-
-.btn{
-border: 1px solid #555;
+.btn {
+    border: 1px solid #555;
     padding: 2px 4px;
     text-transform: lowercase;
     color: #555;
     display: block;
     text-align: center;
     max-width: 200px;
+    margin: 10px 0px;
 }
 
-.btn-big{
-border: 1px solid #555;
+.btn-big {
+    border: 1px solid #555;
     padding: 2px 4px;
     text-transform: lowercase;
-    color: #555;   
+    color: #555;
 }
 
-.btn:hover{
-text-decoration: none;
+.btn:hover {
+    text-decoration: none;
     background: #fff;
 }
-input{
-margin-bottom: 10px;
+
+input {
+    margin-bottom: 10px;
 }
 
-#projects{
+#projects {
     padding-left: 0rem;
     list-style: none;
 }
 
-#projects ul li{
+#projects ul li,
+#services ul li {
     list-style: none;
 }
 
-.project-thumb{
-width: 100%;
+.project-thumb
+{
+    width: 100%;
+    float: left;
+    /*    border-top: 1px solid #000;*/
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.project-thumb img
+{
+    width: 50%;
+    float: left;
+    border: none;
+    margin-right: 20px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    
+    filter: grayscale(100%);
+}
+
+.project-thumb img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    
+    filter: grayscale(0%);
+}
+
+#services {
+    padding-left: 0rem;
+    list-style: none;
+}
+
+#services ul li {
+    list-style: none;
+}
+
+.service-thumb {
+    width: 100%;
     float: left;
     border-top: 1px solid #000;
     margin-bottom: 10px;
-    padding: 10px;
 }
-.project-thumb img{
-width: 50%;
+
+.service-thumb img {
+    width: 50%;
     float: left;
     border: none;
-    padding: 5px;
-    margin-right:20px; 
-
+    margin-right: 20px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    
+    filter: grayscale(100%);
 }
 
+.service-thumb img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    
+    filter: grayscale(0%);
+}
 
 #cssSlider {
     width: 800px;
@@ -399,7 +459,7 @@ width: 50%;
     }
 }
 
-#footer{
-border-top: 1px solid #000;
+#footer {
+    border-top: 1px solid #000;
     margin-top: 50px;
 }
