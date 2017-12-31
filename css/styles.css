@@ -6,7 +6,7 @@ body {
     font: 16px/1.5 'Karla', sans-serif;
     margin: 2rem 0 5rem;
     color: #333;
-    background: rgb(246, 241, 231);
+    background: rgb(255, 251, 247);
 }
 
 @media (min-width: 30rem) {
