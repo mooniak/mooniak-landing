@@ -1,17 +1,15 @@
 ---
 layout: home
 ---
-<div id='mooniak-logo'>
+<!-- <div id='mooniak-logo'>
     <img class='mooniak-logo-big' src="./images/moonaik_circles.svg">
     <img class='mooniak-logo-small' src="./images/moonaik_small.svg">
-</div>
-
-
+</div> -->
 
 
 <div class="grid grid-pad">
     <div class="col-1-3 mobile-col-1-1">
-        <h1 style='font-family:Moonface, sans-serif; text-align:left; font-size:60px;'>mooniak</h1>
+      <img src="images/mooniak_logo.svg"
     </div>
 </div>
 
@@ -26,16 +24,16 @@ $(document).ready(function(){
   $('html').mousemove(function(e){
         var x = (e.pageX + this.offsetLeft) / 60;
         var y = -(e.pageY + this.offsetTop) / 70;
-        $('.mooniak-logo-big').css({'top': x +80 ,'left': y +80 }); 
+        $('.mooniak-logo-big').css({'top': x +80 ,'left': y +80 });
   });
 });
-    
+
 $(document).ready(function(){
   $('html').mousemove(function(e){
         var x = -(e.pageX + this.offsetLeft) / 100;
         var y = (e.pageY + this.offsetTop) / 70;
-        $('.mooniak-logo-small').css({'top': x +80 ,'left': y +80 }); 
+        $('.mooniak-logo-small').css({'top': x +80 ,'left': y +80 });
   });
 });
-    
+
  </script>

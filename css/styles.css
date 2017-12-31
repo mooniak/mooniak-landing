@@ -41,7 +41,7 @@ nav {
 a {
     color: red;
     /* From http://clrs.cc */
-    
+
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ h6 {
     font-weight: 700;
     margin: 0 0 0.5rem -0.1rem
     /* align left edge */
-    
+
     ;
     line-height: 1;
     color: #111;
@@ -93,7 +93,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0.5rem;
+    margin-top: 0.9rem;
     font-size: 1rem;
     text-transform: uppercase;
 }
@@ -247,14 +247,14 @@ input {
     margin-right: 20px;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: grayscale(100%);
 }
 
 .project-thumb img:hover {
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: grayscale(0%);
 }
 
@@ -282,14 +282,14 @@ input {
     margin-right: 20px;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: grayscale(100%);
 }
 
 .service-thumb img:hover {
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: grayscale(0%);
 }
 
@@ -305,7 +305,7 @@ input {
     height: 500px;
     overflow: hidden;
     /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
-    
+
     animation: slide 10s infinite;
     -moz-animation: slide 10s infinite;
     -webkit-animation: slide 10s infinite;
