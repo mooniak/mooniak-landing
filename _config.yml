@@ -1,6 +1,8 @@
 title: mooniak - a design and technology conslutancy solving bussiness problmes, making great things and building communities.
 description: We are a multi-disciplinary design and technology practice based out of Colombo, Sri Lanka with a network of international and local collaborators and partners. We operate in a diverse space where design, technology, business and communication harmoniously overlap.
-image: 
+image:
+baseurl: /
+
 safe: false
 lsi: false
 
@@ -29,4 +31,3 @@ exclude:
   - package.json
   - CNAME
   - node_modules
-

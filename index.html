@@ -9,25 +9,33 @@ layout: home
 
 
 
+<div class="grid grid-pad">
+    <div class="col-1-3  mobile-col-1-1">
+      <h2> A collective of creatives and makers. Design, art direction, typography and technology. </h2>
+      </h2>
+      keywords; typography, typeface design, publication design, multilingual, branding, text technologies
+      <br>
+      <h3>Typography, type design & fonts</h3> Mooniak specialises in typography and type design.
+      <br>
+      <a href="http://mooniak.com/fonts">Fonts from Mooniak;</a>
+      Sinhala and Tamil fonts from Mooniak are now avialable here.
+      <a href="http://mooniak.com/fonts">Fonts related tools</a>
 
 
-{% include footer.html %}
+      <h3>GRAPHIC DESIGN & Art direction</h3>
+      <a href="https://www.behance.net/mooniak">Portfolio</a><br>
+      <a href="https://medium.com/mooniak">Case studies</a><br>
+      <!-- <a href="https://drive.google.com/open?id=0B-g8qKkrermGVlNWNmZxcVFadFk">Profile</a><br> -->
 
-<script>
-$(document).ready(function(){
-  $('html').mousemove(function(e){
-        var x = (e.pageX + this.offsetLeft) / 60;
-        var y = -(e.pageY + this.offsetTop) / 70;
-        $('.mooniak-logo-big').css({'top': x +80 ,'left': y +80 });
-  });
-});
+      <h3>Updates</h2>
 
-$(document).ready(function(){
-  $('html').mousemove(function(e){
-        var x = -(e.pageX + this.offsetLeft) / 100;
-        var y = (e.pageY + this.offsetTop) / 70;
-        $('.mooniak-logo-small').css({'top': x +80 ,'left': y +80 });
-  });
-});
+  {% include latest.html %}
 
- </script>
+    </div>
+  </div>
+  <div class="grid grid-pad">
+    <div class="col-1-3 push-1-4 mobile-col-1-1">
+
+</div>
+
+</div>
