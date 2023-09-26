@@ -1,33 +1,6 @@
 title: mooniak - a design and technology conslutancy solving bussiness problmes, making great things and building communities.
 description: We are a multi-disciplinary design and technology practice based out of Colombo, Sri Lanka with a network of international and local collaborators and partners. We operate in a diverse space where design, technology, business and communication harmoniously overlap.
 image:
-baseurl: /
 
 safe: false
 lsi: false
-
-
-# About/contact
-author:
-  name:              Pathum Egodawatta
-  url:               https://twitter.com/pathumego
-  email:             pathum@mooniak.com
-
-# Custom vars
-version:             0.0.1
-
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
-  - Procfile
-  - Gruntfile.js
-  - package.json
-  - CNAME
-  - node_modules
