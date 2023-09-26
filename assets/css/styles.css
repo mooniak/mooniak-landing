@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
 @import url(https://cdn.rawgit.com/mooniak/moonface-font/master/fonts/webfonts/fonts.css);
-body {
-  font: 16px/1.5 'Karla', sans-serif;
-  margin: 2rem 0 5rem;
-  color: #333;
-  background: rgb(255, 251, 247);
+
+
+.subtitle {
+  font-size: 36px;
+  line-height: 1.25:
 }
