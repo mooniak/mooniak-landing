@@ -1,4 +1,4 @@
-
+/* Yakkala Font */
 @font-face {
   font-family:"Yakkala";
   src:url("https://arweave.net/3jX5fIdi2zIui9vb0OQ4XnWBlGjjAX7k6kRrcMGZTNQ") format("woff2");
@@ -12,7 +12,7 @@ body {
 
 }
 
-p {
+h4, nav, footer {
   font-family:"Yakkala";
 
 }
@@ -20,4 +20,7 @@ p {
 .subtitle {
   font-size: 36px;
   line-height: 1.25;
+  font-family:"Yakkala";
+  font-weight: 0;
+
 }
