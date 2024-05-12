@@ -1,5 +1,21 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
 
+@font-face {
+  font-family:"Yakkala";
+  src:url("https://arweave.net/3jX5fIdi2zIui9vb0OQ4XnWBlGjjAX7k6kRrcMGZTNQ") format("woff2");
+  font-style:normal;
+  font-weight:400;
+}
+
+body {
+
+  font-family:"Yakkala";
+
+}
+
+p {
+  font-family:"Yakkala";
+
+}
 
 .subtitle {
   font-size: 36px;

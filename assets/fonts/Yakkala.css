@@ -1,6 +1,7 @@
 
 @font-face {
     font-family:"Yakkala";
-    src:url("Yakkala-Regular.woff2") format("woff2"),url("Yakkala-Regular.woff") format("woff"),url("Yakkala-Regular.otf") format("opentype");
-    font-style:normal;font-weight:400;
+    src:url("./Yakkala-Regular.woff2") format("woff2"),url("./Yakkala-Regular.woff") format("woff"),url("./Yakkala-Regular.otf") format("opentype");
+    font-style:normal;
+    font-weight:400;
 }
